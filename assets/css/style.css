@@ -11,6 +11,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
+  background-color: rgb(0, 0, 0);
 }
 
 a {
@@ -387,6 +388,26 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about {
+  background-color: #f2f7f7;
+}
+
+.about .div-img-bg {
+  padding-bottom: 30px;
+  border: 10px solid #23212c;
+}
+
+.about .div-img-bg .about-img img {
+  width: 80%;
+  box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 500px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -464,6 +485,10 @@ section {
 /*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
+
+.skills{
+    background-color: #f5f8fd;
+}
 .skills .progress {
   height: 60px;
   display: block;
@@ -500,6 +525,10 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+.resume{
+  background-color: #ddd;
+}
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -561,6 +590,10 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio{
+  background-color: #ddd;
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -782,6 +815,10 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services{
+  background-color: #ddd;
+}
+
 .services .icon-box {
   text-align: center;
   padding: 70px 20px 80px 20px;
