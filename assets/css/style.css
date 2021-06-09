@@ -404,7 +404,7 @@ section {
   margin-top: 30px;
   margin-left: 20px;
   margin-right: 20px;
-  height: 500px;
+  height:305px;
   -o-object-fit: cover;
   object-fit: cover;
 }
@@ -819,8 +819,9 @@ section {
 }
 
 .service-box .s-title {
-  font-size: 1.4rem;
-  text-transform: uppercase;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 1.3rem;
   text-align: center;
   padding: .4rem 0;
 }
