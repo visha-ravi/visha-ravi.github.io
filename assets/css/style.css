@@ -342,7 +342,7 @@ h1, h2, h3, h4, h5, h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
-  background-color: #ffffff;
+  background-color: #f5f8fd;
 }
 
 .section-title {
@@ -784,7 +784,7 @@ section {
 
 
 /*--------------------------------------------------------------
-# Services
+# Interest
 --------------------------------------------------------------*/
 .service-box {
   background-color:#1a42638f;
@@ -797,7 +797,7 @@ section {
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
-  background-color: #040f1b;
+  background-color: #0071eb;
   box-shadow: 0 0 0 10px #a7b4c4;
 }
 
